@@ -16,6 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+   //[[UILabel appearance] setFont:[UIFont fontWithName:@"ROBOTO" size:40.0]];
     // Override point for customization after application launch.
     return YES;
 }

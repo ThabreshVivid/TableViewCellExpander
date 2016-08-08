@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00A406C61D5385570061FB70 /* CustomCelll.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A406C41D5385570061FB70 /* CustomCelll.m */; };
+		00A406C71D5385570061FB70 /* CustomCelll.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00A406C51D5385570061FB70 /* CustomCelll.xib */; };
 		00E62D8A1D33705800EB7FE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E62D891D33705800EB7FE5 /* main.m */; };
 		00E62D8D1D33705800EB7FE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E62D8C1D33705800EB7FE5 /* AppDelegate.m */; };
 		00E62D901D33705800EB7FE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E62D8F1D33705800EB7FE5 /* ViewController.m */; };
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00A406C31D5385570061FB70 /* CustomCelll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCelll.h; sourceTree = "<group>"; };
+		00A406C41D5385570061FB70 /* CustomCelll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCelll.m; sourceTree = "<group>"; };
+		00A406C51D5385570061FB70 /* CustomCelll.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCelll.xib; sourceTree = "<group>"; };
 		00E62D851D33705800EB7FE5 /* CheckNetwork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckNetwork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E62D891D33705800EB7FE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		00E62D8B1D33705800EB7FE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +110,9 @@
 				00E62D8C1D33705800EB7FE5 /* AppDelegate.m */,
 				00E62D8E1D33705800EB7FE5 /* ViewController.h */,
 				00E62D8F1D33705800EB7FE5 /* ViewController.m */,
+				00A406C31D5385570061FB70 /* CustomCelll.h */,
+				00A406C41D5385570061FB70 /* CustomCelll.m */,
+				00A406C51D5385570061FB70 /* CustomCelll.xib */,
 				00E62D911D33705800EB7FE5 /* Main.storyboard */,
 				00E62D941D33705800EB7FE5 /* Assets.xcassets */,
 				00E62D961D33705800EB7FE5 /* LaunchScreen.storyboard */,
@@ -246,6 +254,7 @@
 				00E62D981D33705800EB7FE5 /* LaunchScreen.storyboard in Resources */,
 				00E62D951D33705800EB7FE5 /* Assets.xcassets in Resources */,
 				00E62D931D33705800EB7FE5 /* Main.storyboard in Resources */,
+				00A406C71D5385570061FB70 /* CustomCelll.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +281,7 @@
 			files = (
 				00E62D901D33705800EB7FE5 /* ViewController.m in Sources */,
 				00E62D8D1D33705800EB7FE5 /* AppDelegate.m in Sources */,
+				00A406C61D5385570061FB70 /* CustomCelll.m in Sources */,
 				00E62D8A1D33705800EB7FE5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CheckNetwork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VividInfotech.CheckNetwork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CheckNetwork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VividInfotech.CheckNetwork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -498,6 +510,7 @@
 				00E62DB41D33705800EB7FE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00E62DB51D33705800EB7FE5 /* Build configuration list for PBXNativeTarget "CheckNetworkTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +519,7 @@
 				00E62DB71D33705800EB7FE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00E62DB81D33705800EB7FE5 /* Build configuration list for PBXNativeTarget "CheckNetworkUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +528,7 @@
 				00E62DBA1D33705800EB7FE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
